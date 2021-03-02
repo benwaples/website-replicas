@@ -1,0 +1,1 @@
+# A list of websites I want to replicate so I can practice remaking a page from a designer. See below for screen shots of the actual compared to my version.
