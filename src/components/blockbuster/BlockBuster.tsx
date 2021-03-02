@@ -1,10 +1,15 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
-import './BlockBuster.scss';
-import Header from './Header';
+import Header from './header/Header';
+import PictureCarousel from './pictureCarousel/pictureCarousel';
 
 function BlockBuster(): JSX.Element {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <PictureCarousel />
+    </>
+  );
 }
 
 export default BlockBuster;
