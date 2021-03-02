@@ -5,17 +5,19 @@ import './PictureCarousel.scss';
 
 function PictureCarousel(): JSX.Element {
   return (
-    <ImageGallery
-      items={imageArray}
-      disableThumbnailScroll
-      disableSwipe
-      showNav={false}
-      autoPlay
-      slideInterval={6000}
-      showFullscreenButton={false}
-      showPlayButton={false}
-      showThumbnails={false}
-    />
+    <div className="picture-carousel">
+      <ImageGallery
+        items={imageArray}
+        disableThumbnailScroll
+        disableSwipe
+        showNav={false}
+        autoPlay
+        slideInterval={6000}
+        showFullscreenButton={false}
+        showPlayButton={false}
+        showThumbnails={false}
+      />
+    </div>
   );
 }
 
