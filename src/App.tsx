@@ -10,8 +10,8 @@ function App(): JSX.Element {
     <Router>
       <Header />
       <Switch>
-        <Route path="/blockbuster" render={BlockBuster} />
-        <Route path="/" render={Home} />
+        <Route exact path="/blockbuster" render={BlockBuster} />
+        <Route exact path="/" render={Home} />
       </Switch>
     </Router>
   );
