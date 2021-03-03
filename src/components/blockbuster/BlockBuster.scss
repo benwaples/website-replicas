@@ -1,6 +1,6 @@
 .picture-carousel {
-  position: absolute;
-  z-index: 0;
+  // position: absolute;
+  // z-index: -1;
   width: 100%;
 }
 
@@ -8,4 +8,13 @@
   position: absolute;
   z-index: 1;
   width: 100%;
+}
+
+.top-container {
+  height: 570px;
+  overflow: hidden;
+}
+
+.block-buster {
+  // position: fixed;
 }
