@@ -16,6 +16,7 @@ function PictureCarousel(): JSX.Element {
         showFullscreenButton={false}
         showPlayButton={false}
         showThumbnails={false}
+        onImageError={() => console.log('error')}
       />
     </div>
   );

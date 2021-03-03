@@ -15,6 +15,7 @@
   overflow: hidden;
 }
 
-.block-buster {
-  // position: fixed;
+.description-container {
+  position: absolute;
+  z-index: 1;
 }

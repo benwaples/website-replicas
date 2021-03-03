@@ -1,18 +1,31 @@
 /* eslint-disable import/prefer-default-export */
+import lastOnEarth from './pictures/last_on_earth.png';
+import moreThan from './pictures/more_than.png';
+import recentAnnouncements from './pictures/recent_announcements.png';
+
 export const imageArray = [
   {
-    original:
-      'https://bendblockbuster.com/wp-content/uploads/2019/05/58410657_2308045206184450_438509880660415004_n.jpg.webp',
-    description: 'THE LAST ON EARTH BLOCKBUSTER',
+    original: lastOnEarth,
   },
   {
-    original:
-      'https://bendblockbuster.com/wp-content/uploads/2019/08/SAD06533-scaled.jpg.webp',
-    description: 'MORE THAN 21,000 MOVIES TO CHOOSE FROM',
+    original: moreThan,
   },
   {
-    original:
-      'https://bendblockbuster.com/wp-content/uploads/2019/08/SAD06569-scaled.jpg.webp',
-    description: 'CLICK HERE FOR RECENT ANNOUNCEMENTS',
+    original: recentAnnouncements,
+  },
+];
+
+export const descriptionArray = [
+  {
+    top: 'THE LAST ON EARTH',
+    bottom: 'BLOCKBUSTER',
+  },
+  {
+    top: 'MORE THAN',
+    bottom: '21,000 MOVIES TO CHOOSE FROM',
+  },
+  {
+    top: 'CLICK HERE FOR',
+    bottom: 'RECENT ANNOUNCEMENTS',
   },
 ];
