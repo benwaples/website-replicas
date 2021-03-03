@@ -23,3 +23,21 @@
     
   }
 }
+
+.release-wrapper {
+  width: 100%;
+  height: 253px;
+
+  .image-gallery-slides {
+    img {
+      height: 250px;
+    }
+  }
+
+  .bottom {
+    svg {
+      height: 40px !important;
+      color: grey
+    }
+  }
+}
