@@ -72,6 +72,11 @@ function BlockBuster(): JSX.Element {
         </div>
         <div className="social">
           <p>© 2019 Blockbuster. All Rights Reserved.</p>
+          <ul>
+            <li>
+              <img src="" alt="" />
+            </li>
+          </ul>
         </div>
       </footer>
     </>
