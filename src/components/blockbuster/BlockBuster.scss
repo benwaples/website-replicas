@@ -33,7 +33,7 @@
   height: 646px;
   
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 
   .text-box {
@@ -81,9 +81,32 @@
   li {
     img {
       width: 118px;
-
+      filter: grayscale(0);
     }
   }
+}
 
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcc139;
+  height: 108px;
+  width: 100%;
 
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    li {
+      margin: 15px;
+      img {
+        height: 21px;
+        width: 24px;
+        
+      }
+    }
+  }
 }

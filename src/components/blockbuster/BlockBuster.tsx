@@ -3,6 +3,8 @@ import React from 'react';
 import Header from './header/Header';
 import PictureCarousel from './pictureCarousel/pictureCarousel';
 import './BlockBuster.scss';
+import facebook from './assets/124010.png';
+import twitter from './assets/twitter-logo-2-1.png';
 import NewReleases from './newReleases/NewReleases';
 import FeaturedProducts from './featuredProducts/FeaturedProducts';
 // import { descriptionArray } from './pictureCarousel/assets';
@@ -74,7 +76,10 @@ function BlockBuster(): JSX.Element {
           <p>© 2019 Blockbuster. All Rights Reserved.</p>
           <ul>
             <li>
-              <img src="" alt="" />
+              <img src={facebook} alt="facebook" className="facebook" />
+            </li>
+            <li>
+              <img src={twitter} alt="twitter" className="twitter" />
             </li>
           </ul>
         </div>
