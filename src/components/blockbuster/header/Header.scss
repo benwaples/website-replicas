@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .bb-header {
+  position: sticky;
+  z-index: 12;
+  top: 0;
+  left: 0;
   height: 112px;
   background-color: #1f4489;
 
