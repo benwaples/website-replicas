@@ -2,16 +2,19 @@
 
 .new-releases {
 
-  h1 {
+  margin-top: 78px;
+
+  h2 {
     font-family: Poppins, sans-serif;
     color: #1f4489;
     position: relative;
     margin: 0 0 20px 30px;
     padding-bottom: 10px;
     font-weight: 900px;
+    font-size: 32px;
   }
 
-  h1:after {
+  h2:after {
     content: "";
     position: absolute;
     height: 4px;
